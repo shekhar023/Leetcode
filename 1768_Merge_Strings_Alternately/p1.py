@@ -1,5 +1,3 @@
-
-
 """
     You are given two strings word1 and word2.
     Merge the strings by adding letters in alternating order,
@@ -32,6 +30,9 @@ def mergeAlternately(word1: str, word2: str) -> str:
         merged.append(word2[b])
         b += 1
     return ''.join(merged)
+
+
+
 # Test cases  
 if __name__ == "__main__":
     # Test cases
